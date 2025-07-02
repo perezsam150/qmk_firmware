@@ -16,6 +16,8 @@
 
 #pragma once
 
+#define UNICODE_SELECTED_MODES UNICODE_MODE_WINDOWS
+
 /* key matrix pins */
 #define MATRIX_ROW_PINS \
     { B5, B4, B3, A15, A14, A13 }
