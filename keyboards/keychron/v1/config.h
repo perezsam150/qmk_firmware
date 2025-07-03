@@ -16,6 +16,7 @@
 
 #pragma once
 
+// For n tilde functionality on fn layer + n
 #define UNICODE_SELECTED_MODES UNICODE_MODE_WINDOWS
 
 /* key matrix pins */
