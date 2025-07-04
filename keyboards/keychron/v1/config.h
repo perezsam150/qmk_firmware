@@ -23,6 +23,23 @@
 #define RGBLIGHT_DEFAULT_MODE RGBLIGHT_MODE_STATIC_LIGHT
 #define RGBLIGHT_STARTUP_MODE RGBLIGHT_MODE_STATIC_LIGHT
 
+// Disable unnecessary logspam/debugging
+#ifndef NO_DEBUG
+	#define NO_DEBUG
+#endif
+
+#ifndef NO_PRINT
+	#define NO_PRINT
+#endif
+
+#ifndef NO_ACTION_ONESHOT
+	#define NO_ACTION_ONESHOT
+#endif
+
+#ifndef NO_ACTION_TAPPING
+	#define NO_ACTION_TAPPING
+#endif
+
 
 /* key matrix pins */
 #define MATRIX_ROW_PINS \
