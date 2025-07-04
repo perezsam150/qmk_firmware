@@ -19,6 +19,11 @@
 // For n tilde functionality on fn layer + n
 #define UNICODE_SELECTED_MODES UNICODE_MODE_WINDOWS
 
+// Fix bug where keyboard starts with no backlight
+#define RGBLIGHT_DEFAULT_MODE RGBLIGHT_MODE_STATIC_LIGHT
+#define RGBLIGHT_STARTUP_MODE RGBLIGHT_MODE_STATIC_LIGHT
+
+
 /* key matrix pins */
 #define MATRIX_ROW_PINS \
     { B5, B4, B3, A15, A14, A13 }
